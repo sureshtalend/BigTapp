@@ -164,7 +164,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/home/ubuntu/workspace/Sunsystems/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/bigtapp-90/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -613,7 +613,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="736" posY="1088">
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="768" posY="1088">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlRow_10" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
@@ -685,7 +685,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="736" posY="1184">
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="768" posY="1184">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlRow_12" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
@@ -721,7 +721,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="736" posY="1280">
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="800" posY="1280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlRow_13" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
@@ -757,7 +757,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="736" posY="1376">
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="9" offsetLabelY="0" posX="768" posY="1376">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlRow_14" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
