@@ -52,7 +52,7 @@
       <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_KaT6UA46EeiVXuZbpaZXDA" type="id_String" value="null"/>
     </context>
     <parameters>
-      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="4" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
       <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
       <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
@@ -125,7 +125,7 @@
     </parameters>
     <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="96">
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-      <elementParameter field="MEMO_JAVA" name="CODE" value="if (context.contextdir == null || &quot;null&quot;.equals(context.contextdir) || &quot;&quot;.equals(context.contextdir))&#xA;context.contextdir =&#xA;&quot;/home/ubuntu/dimjobs/context_files/&quot;;&#xA;&#xA;if (context.contextfile == null || &quot;null&quot;.equals(context.contextfile) || &quot;&quot;.equals(context.contextfile))&#xA;context.contextfile = &quot;Context_DIM_FACT.csv&quot;;&#xA;&#xA;globalMap.put(&quot;context_file&quot;,context.contextdir + context.contextfile);&#xA;&#xA;System.out.println(&#xA;jobName + &quot; context will be loaded from &quot; + (String) &#xA;globalMap.get(&quot;context_file&quot;));"/>
+      <elementParameter field="MEMO_JAVA" name="CODE" value="if (context.contextdir == null || &quot;null&quot;.equals(context.contextdir) || &quot;&quot;.equals(context.contextdir))&#xA;context.contextdir =&#xA;&quot;/home/ubuntu/Context_Files/&quot;;&#xA;&#xA;if (context.contextfile == null || &quot;null&quot;.equals(context.contextfile) || &quot;&quot;.equals(context.contextfile))&#xA;context.contextfile = &quot;Context_DIM_FACT.csv&quot;;&#xA;&#xA;globalMap.put(&quot;context_file&quot;,context.contextdir + context.contextfile);&#xA;&#xA;System.out.println(&#xA;jobName + &quot; context will be loaded from &quot; + (String) &#xA;globalMap.get(&quot;context_file&quot;));"/>
       <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
       <elementParameter field="TEXT" name="LABEL" value="Context_Initialization"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
