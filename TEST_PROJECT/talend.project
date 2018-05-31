@@ -167,7 +167,6 @@
       <relatedItems xmi:id="_6B9xOmTQEeinOJyP9Es_Uw" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_6B9xO2TQEeinOJyP9Es_Uw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_6B9xPGTQEeinOJyP9Es_Uw" id="TalendStringUtil" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_6B9xPWTQEeinOJyP9Es_Uw" id="_eBKY4GTQEeinOJyP9Es_Uw - TEST2" version="Latest" type="schema"/>
       <relatedItems xmi:id="_6B9xPmTQEeinOJyP9Es_Uw" id="_eBKY4GTQEeinOJyP9Es_Uw - TEST" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_ngebgGSaEei4HLlYjb-84g" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
