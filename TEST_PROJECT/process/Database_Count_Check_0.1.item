@@ -254,7 +254,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="if(context.source_count==context.target_count)&#xA;{&#xA;&#x9;System.out.println(&quot;The source and Target records are matched--count is&quot;+context.target_count);&#xA;}&#xA;else&#xA;{&#xA;&#x9;System.out.println(&quot;The source and Target records are not matached--Source_count-->&quot;+context.source_count+\n&quot;Target_count-->&quot;+context.target_count);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
