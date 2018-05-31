@@ -493,4 +493,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_m8Df0mSaEei4HLlYjb-84g" login="admin@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_ZGeBUWSgEei014UP-Uhaew" login="Trigger-Runner" type="DI"/>
+  <TalendProperties:User xmi:id="_BUiD4WSlEeiCcuMplgK9hQ" login="user@talend.com"/>
 </xmi:XMI>
