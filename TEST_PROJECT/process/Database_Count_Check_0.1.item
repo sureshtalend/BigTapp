@@ -128,8 +128,6 @@
     <elementParameter field="TEXT" name="USER" value="&quot;system&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="XOWw2jdQq/4="/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_eBKY4GTQEeinOJyP9Es_Uw - TEST" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;TEST&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -150,19 +148,19 @@
     <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="NO"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NAME"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Target"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="TEST" name="tOracleInput_1">
-      <column comment="" key="false" length="20" name="NO" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+      <column comment="" key="false" length="20" name="key" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="20" name="value" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -254,7 +252,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="if(context.source_count==context.target_count)&#xA;{&#xA;&#x9;System.out.println(&quot;The source and Target records are matched--count is&quot;+context.target_count);&#xA;}&#xA;else&#xA;{&#xA;&#x9;System.out.println(&quot;The source and Target records are not matached--Source_count-->&quot;+context.source_count+\n&quot;Target_count-->&quot;+context.target_count);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="if(context.source_count==context.target_count)&#xA;{&#xA;&#x9;System.out.println(&quot;The source and Target records are matched--count is&quot;+context.target_count);&#xA;}&#xA;else&#xA;{&#xA;&#x9;System.out.println(&quot;The source and Target records are not matached--Source_count-->&quot;+context.source_count+&quot;Target_count-->&quot;+context.target_count);&#xA;}"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
