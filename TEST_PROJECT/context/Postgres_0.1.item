@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_hDyHQGTOEeinOJyP9Es_Uw" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_hDyHQWTOEeinOJyP9Es_Uw" comment="" name="schema_name" prompt="schema_name?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyHQmTOEeinOJyP9Es_Uw" comment="" name="hivetablename" prompt="hivetablename?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyHQ2TOEeinOJyP9Es_Uw" comment="" name="jdbc" prompt="jdbc?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyHRGTOEeinOJyP9Es_Uw" comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyHRWTOEeinOJyP9Es_Uw" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyHRmTOEeinOJyP9Es_Uw" comment="" name="id" prompt="id?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyHR2TOEeinOJyP9Es_Uw" comment="" name="hdfsusername" prompt="hdfsusername?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyHSGTOEeinOJyP9Es_Uw" comment="" name="accesskey" prompt="accesskey?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyHSWTOEeinOJyP9Es_Uw" comment="" name="secretkey" prompt="secretkey?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyuUGTOEeinOJyP9Es_Uw" comment="" name="postgres_schema" prompt="postgres_schema?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyuUWTOEeinOJyP9Es_Uw" comment="" name="bucketname" prompt="bucketname?" promptNeeded="false" type="id_String" value="null"/>
-  <contextParameter xmi:id="_hDyuUmTOEeinOJyP9Es_Uw" comment="" name="dim_schema_name" prompt="dim_schema_name?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyuU2TOEeinOJyP9Es_Uw" comment="" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyuVGTOEeinOJyP9Es_Uw" comment="" name="hive_password" prompt="hive_password?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyuVWTOEeinOJyP9Es_Uw" comment="" name="PostgresDB" prompt="PostgresDB?" promptNeeded="false" type="id_String" value=""/>
-  <contextParameter xmi:id="_hDyuVmTOEeinOJyP9Es_Uw" comment="" name="postgresql" prompt="postgresql?" promptNeeded="false" type="id_String" value=""/>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_nKeYsGTOEeinOJyP9Es_Uw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_nKeYsWTOEeinOJyP9Es_Uw" comment="" name="schema_name" prompt="schema_name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYsmTOEeinOJyP9Es_Uw" comment="" name="hivetablename" prompt="hivetablename?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYs2TOEeinOJyP9Es_Uw" comment="" name="jdbc" prompt="jdbc?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYtGTOEeinOJyP9Es_Uw" comment="" name="username" prompt="username?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYtWTOEeinOJyP9Es_Uw" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYtmTOEeinOJyP9Es_Uw" comment="" name="id" prompt="id?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYt2TOEeinOJyP9Es_Uw" comment="" name="hdfsusername" prompt="hdfsusername?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYuGTOEeinOJyP9Es_Uw" comment="" name="accesskey" prompt="accesskey?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYuWTOEeinOJyP9Es_Uw" comment="" name="secretkey" prompt="secretkey?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYumTOEeinOJyP9Es_Uw" comment="" name="postgres_schema" prompt="postgres_schema?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYu2TOEeinOJyP9Es_Uw" comment="" name="bucketname" prompt="bucketname?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_nKeYvGTOEeinOJyP9Es_Uw" comment="" name="dim_schema_name" prompt="dim_schema_name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYvWTOEeinOJyP9Es_Uw" comment="" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYvmTOEeinOJyP9Es_Uw" comment="" name="hive_password" prompt="hive_password?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYv2TOEeinOJyP9Es_Uw" comment="" name="PostgresDB" prompt="PostgresDB?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_nKeYwGTOEeinOJyP9Es_Uw" comment="" name="postgresql" prompt="postgresql?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
