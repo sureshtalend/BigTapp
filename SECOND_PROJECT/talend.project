@@ -7,6 +7,19 @@
     <documentationStatus xmi:id="_FvaGEGi-EeiS1aoIJRv89w" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_FvaGEWi-EeiS1aoIJRv89w" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_FvaGEmi-EeiS1aoIJRv89w" label="validated" code="VAL"/>
+    <ItemsRelations xmi:id="_ap80EGjDEeiS1aoIJRv89w">
+      <baseItem xmi:id="_ap80EWjDEeiS1aoIJRv89w" id="_ZF2kEGjDEeiS1aoIJRv89w" version="0.1" type="joblet"/>
+      <relatedItems xmi:id="_ap80EmjDEeiS1aoIJRv89w" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80E2jDEeiS1aoIJRv89w" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80FGjDEeiS1aoIJRv89w" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80FWjDEeiS1aoIJRv89w" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80FmjDEeiS1aoIJRv89w" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80F2jDEeiS1aoIJRv89w" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80GGjDEeiS1aoIJRv89w" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80GWjDEeiS1aoIJRv89w" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80GmjDEeiS1aoIJRv89w" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ap80G2jDEeiS1aoIJRv89w" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_Fnp4QGi-EeiS1aoIJRv89w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Fnp4QWi-EeiS1aoIJRv89w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Fnp4Qmi-EeiS1aoIJRv89w" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
