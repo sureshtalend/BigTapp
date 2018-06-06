@@ -597,7 +597,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;The deleted rows are:-&quot;+((Integer)globalMap.get(&quot;tOracleRow_1_NB_LINE_DELETED&quot;)));"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;The deleted rows are:-&quot;+((Integer)globalMap.get(&quot;tOracleRow_1_NB_LINE_DELETED&quot;)));&#xA;System.out.println(&quot;The Inserted rows are:-&quot;+((Integer)globalMap.get(&quot;tOracleRow_1_NB_LINE_INSERTED&quot;)));"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="TEST" name="tJava_1">
